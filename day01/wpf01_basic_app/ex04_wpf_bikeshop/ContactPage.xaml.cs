@@ -24,5 +24,23 @@ namespace ex04_wpf_bikeshop
         {
             InitializeComponent();
         }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            // 코드에서 속성값을 지정할때 사용방법
+            Bike MyBike = new Bike();
+            MyBike.Speed = 60;
+            MyBike.Color = Colors.Black;
+
+            TextBox text1 = new TextBox();
+            StpBike.DataContext = MyBike;
+            //MessageBox.Show(DgBike.Speed.ToString());
+        }
+
+        //private void SldValue_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        //{
+        //    PrgValue.Value = (double)e.NewValue;
+        //    LblValue.Content = Math.Round(PrgValue.Value, 1);
+        //}
     }
 }
