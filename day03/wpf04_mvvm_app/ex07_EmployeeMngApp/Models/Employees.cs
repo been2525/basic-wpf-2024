@@ -10,23 +10,23 @@
         public string Addr { get; set; }
 
         public static readonly string SELECT_QUERY = @"SELECT [Id]
-                                                             ,[EnpName]
+                                                             ,[EmpName]
                                                              ,[Salary]
                                                              ,[DeptName]
                                                              ,[Addr]
                                                          FROM [dbo].[Employees]";
         public static readonly string INSERT_QUERY = @"INSERT INTO [dbo].[Employees]
-                                                                   ([EnpName]
+                                                                   ([EmpName]
                                                                    ,[Salary]
                                                                    ,[DeptName]
                                                                    ,[Addr])
                                                              VALUES
-                                                                   (@EnpName
+                                                                   (@EmpName
                                                                    ,@Salary
                                                                    ,@DeptName
                                                                    ,@Addr)";
         public static readonly string UPDATE_QUERY = @"UPDATE [dbo].[Employees]
-                                                          SET [EnpName] = @EnpName
+                                                          SET [EmpName] = @EmpName
                                                              ,[Salary] = @Salary
                                                              ,[DeptName] = @DeptName
                                                              ,[Addr] = @Addr
