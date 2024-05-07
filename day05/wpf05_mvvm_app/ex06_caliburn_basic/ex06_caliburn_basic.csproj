@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wpf04_mvvm_app\.vs\wpf04_mvvm_app\v17\DocumentLayout.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="wpf04_mvvm_app\ex06_caliburn_basic\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wpf04_mvvm_app\.vs\ProjectEvaluation\wpf04_mvvm_app.metadata.v7.bin" />
+    <None Include="wpf04_mvvm_app\.vs\ProjectEvaluation\wpf04_mvvm_app.projects.v7.bin" />
+    <None Include="wpf04_mvvm_app\.vs\wpf04_mvvm_app\DesignTimeBuild\.dtbcache.v2" />
+    <None Include="wpf04_mvvm_app\.vs\wpf04_mvvm_app\FileContentIndex\03fb215e-a2f9-4155-8a21-54da79677b89.vsidx" />
+    <None Include="wpf04_mvvm_app\.vs\wpf04_mvvm_app\FileContentIndex\41c253b3-db11-49a6-b776-e24c28e25b16.vsidx" />
+    <None Include="wpf04_mvvm_app\.vs\wpf04_mvvm_app\FileContentIndex\58a2f26b-9bd2-4e16-8935-08499f04070c.vsidx" />
+    <None Include="wpf04_mvvm_app\.vs\wpf04_mvvm_app\FileContentIndex\5ebe06b6-2b6b-4c00-bfd2-388f229862b5.vsidx" />
+    <None Include="wpf04_mvvm_app\.vs\wpf04_mvvm_app\FileContentIndex\8c0fae81-9508-4b98-89ff-d3ad7c292497.vsidx" />
+    <None Include="wpf04_mvvm_app\.vs\wpf04_mvvm_app\v17\.futdcache.v2" />
+    <None Include="wpf04_mvvm_app\ex06_caliburn_basic\ex06_caliburn_basic.csproj" />
+    <None Include="wpf04_mvvm_app\ex06_caliburn_basic\ex06_caliburn_basic.csproj.user" />
+    <None Include="wpf04_mvvm_app\ex07_EmployeeMngApp\ex07_EmployeeMngApp.csproj" />
+    <None Include="wpf04_mvvm_app\ex07_EmployeeMngApp\ex07_EmployeeMngApp.csproj.user" />
+    <None Include="wpf04_mvvm_app\wpf04_mvvm_app.sln" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Caliburn.Micro" Version="4.0.212" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Caliburn.Micro.Platform">
+      <HintPath>..\..\..\..\..\Users\user\.nuget\packages\caliburn.micro\4.0.212\lib\net6.0-windows7.0\Caliburn.Micro.Platform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
