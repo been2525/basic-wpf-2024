@@ -147,6 +147,7 @@ IoT 개발자 WPF 학습리포지토리
 - MoviFinder 2024 완료
 
 
+        https://github.com/been2525/basic-wpf-2024/assets/130003854/4b36b3eb-45b7-4498-b666-f17ec57d8680
 
 
 - 데이터포털 API 연동앱 예제
