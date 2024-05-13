@@ -164,3 +164,11 @@ https://github.com/been2525/basic-wpf-2024/assets/130003854/d5ab2fd8-addb-4228-9
         - 조회하면 진료소 현황 로드
         - 즐겨찾기 추가 및 삭제
         - 더블클릭시 네이버 지도로 주소지 위치 로드
+
+
+
+https://github.com/been2525/basic-wpf-2024/assets/130003854/be88aee8-721f-41f2-bb82-5a5763cacc8e
+
+
+     
+      
